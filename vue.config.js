@@ -19,5 +19,5 @@ module.exports = defineConfig({
       },
     },
   },
-  publicPath: process.env.NODE_ENV === 'production' ? '/covid19/' : '/'
+  publicPath: process.env.NODE_ENV === 'production' ? './' : '/'
 })
